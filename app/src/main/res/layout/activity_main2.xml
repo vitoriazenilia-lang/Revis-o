@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bem-Vindom, Admin!"
-        android:textColor="@color/blue3"
+        android:textColor="@color/blue2"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,8 +70,8 @@
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:src="@drawable/home_house"
@@ -110,8 +110,8 @@
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:layout_marginLeft="10dp"
@@ -153,8 +153,8 @@
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:src="@drawable/_831367"
@@ -194,8 +194,8 @@
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:src="@drawable/cell_phone"
@@ -234,8 +234,8 @@
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:src="@drawable/calendar_and_clock_time_administration_and_organization_tools_symbol"
@@ -275,8 +275,8 @@
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:src="@drawable/_8dbb3cd_1244_43e2_8377_7169089c7e70"

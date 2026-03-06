@@ -13,6 +13,9 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 }
+viewBinding{
+    enable=true
+}
 
 dependencies {
     implementation(libs.androidx.core.ktx)
