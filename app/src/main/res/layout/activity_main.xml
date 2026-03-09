@@ -9,7 +9,6 @@
     android:background="@drawable/login_background">
 
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
@@ -24,7 +23,7 @@
         app:srcCompat="@drawable/profile_user_account" />
 
     <EditText
-        android:id="@+id/LoginInput"
+        android:id="@+id/loginInput"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -40,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/SenhaInput"
+        android:id="@+id/senhaInput"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -53,10 +52,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginInput" />
+        app:layout_constraintTop_toBottomOf="@+id/loginInput" />
 
     <Button
-        android:id="@+id/Loginbutton"
+        android:id="@+id/loginButton"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/white"
@@ -65,7 +64,7 @@
         android:textColor="@color/blue2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SenhaInput" />
+        app:layout_constraintTop_toBottomOf="@+id/senhaInput" />
 
     <TextView
         android:id="@+id/textView2"
@@ -76,7 +75,7 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Loginbutton" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
     <ImageView
         android:id="@+id/imageView2"
