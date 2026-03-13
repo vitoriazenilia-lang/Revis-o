@@ -35,6 +35,7 @@
         android:text="Bem-Vindo, usuário!"
         android:textColor="@color/blue2"
         android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="100dp"
@@ -51,13 +52,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="-80dp"
-        android:layout_marginLeft="24dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginRight="24dp">
 
 
         <!--Primeiro CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="0"
             android:layout_column="0"
@@ -83,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:text="Home"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp">
@@ -94,7 +95,7 @@
 
         <!--Segundo CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="0"
             android:layout_column="1"
@@ -112,7 +113,7 @@
                     android:id="@+id/imageView2"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="22dp"
                     android:src="@drawable/global_settings"
 
                     />
@@ -121,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:text="Configurações"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="17dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"/>
@@ -133,7 +134,7 @@
 
         <!--Terceiro CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="1"
             android:layout_column="0"
@@ -159,7 +160,7 @@
                     android:layout_height="wrap_content"
                     android:text="Pesquisar"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"/>
@@ -171,7 +172,7 @@
 
         <!--Quarto CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="1"
             android:layout_column="1"
@@ -195,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:text="Contatos"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"/>
@@ -207,7 +208,7 @@
 
         <!--Quinto CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="2"
             android:layout_column="0"
@@ -231,11 +232,10 @@
                     android:layout_height="wrap_content"
                     android:text="Agenda"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"/>
-
 
 
             </LinearLayout>
@@ -244,7 +244,7 @@
 
         <!--Sexto CardView -->
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="160dp"
             android:layout_row="2"
             android:layout_column="1"
@@ -268,7 +268,7 @@
                     android:layout_height="wrap_content"
                     android:text="Logout"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="18dp"
                     android:textColor="@color/blue"
                     android:textStyle="bold"
                     android:layout_marginTop="5dp"/>
